@@ -4,7 +4,7 @@ const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 export const profile = {
   name: "Md. Monowarul Amin",
   tagline: "Operating Systems and Systems Security",
-  portrait: "/profile.jpg" as string | null, // e.g. "/profile.jpg" (put the file in /public)
+  portrait:`${base}/profile.jpg`  as string | null, // e.g. "/profile.jpg" (put the file in /public)
   cv: "/cv.pdf", // put your CV PDF at /public/cv.pdf
   affiliations: [
     "Junior Software Engineer, US-Bangla Airlines.",
