@@ -5,7 +5,7 @@ export const profile = {
   name: "Md. Monowarul Amin",
   tagline: "Operating Systems and Systems Security",
   portrait:`${base}/profile.jpg`  as string | null, // e.g. "/profile.jpg" (put the file in /public)
-  cv: "/cv.pdf", // put your CV PDF at /public/cv.pdf
+  cv: `${base}/cv.pdf`, // put your CV PDF at /public/cv.pdf
   affiliations: [
     "Junior Software Engineer, US-Bangla Airlines.",
     "BSc in Software Engineering, Islamic University of Technology, Gazipur",
@@ -17,7 +17,7 @@ export const profile = {
     { label: "GitHub", href: "https://github.com/Md-Monowarul-Amin" },
     { label: "LinkedIn", href: "https://www.linkedin.com/in/md-monowarul-amin-a673a0203/" },
     { label: "Blog", href: "https://dev.to/md_monowarulamin200042" },
-    { label: "CV", href: "/cv.pdf" },
+    { label: "CV", href: `${base}/cv.pdf` },
   ],
   bio: [
     "Md. Monowarul Amin is a Junior Software Engineer at US-Bangla Airlines. He received his BSc in Software Engineering from the Islamic University of Technology (IUT), Gazipur in 2025.",
