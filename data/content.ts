@@ -1,4 +1,5 @@
 // All site content lives here. Edit this file to update the portfolio.
+const base = process.env.NEXT_PUBLIC_BASE_PATH ?? "";
 
 export const profile = {
   name: "Md. Monowarul Amin",
