@@ -1,6 +1,6 @@
 import {
   profile, research, experience, projects, writing, teaching,
-  education, skills, service, references,
+  education, skills, service, references, interests
 } from "@/data/content";
 
 const Ext = ({ href, children }: { href: string; children: React.ReactNode }) => (
@@ -148,14 +148,19 @@ export default function Home() {
             </ul>
           </section>
 
-          <section id="contact">
+          {/* <section id="contact">
             <h2>References</h2>
             <ul className="entries">
               {references.map((r) => (
                 <li key={r.name}>{r.name}, {r.detail}. <a href={`mailto:${r.email}`}>{r.email}</a></li>
               ))}
             </ul>
-          </section>
+          </section> */}
+
+        <section id="interests" className="py-16">
+          <h2 className="text-2xl font-bold mb-4">Interests</h2>
+          <p>{interests.join(", ")}</p>
+        </section>
         </div>
       </main>
 

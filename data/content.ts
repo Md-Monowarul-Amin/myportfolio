@@ -140,3 +140,5 @@ export const references = [
   { name: "Dr. Muhammad Mahbub Alam", detail: "Professor, Dept. of CSE, Islamic University of Technology", email: "mma@iut-dhaka.edu" },
   { name: "S. M. Sabit Bananee", detail: "Lecturer, Dept. of CSE, Islamic University of Technology", email: "smsabitbananee@iut-dhaka.edu" },
 ];
+
+export const interests = ["Debating", "Volleyball", "Cycling"];
